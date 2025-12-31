@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lydia Chen — Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Experience and roles." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background blobs -->
+  <div class="blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+    <span class="blob b5"></span>
+  </div>
+
+  <!-- Pill Nav (DM Sans stays) -->
+  <nav class="pill-nav" id="pillNav">
+    <div class="pill-active" id="pillActive"></div>
+    <a href="about.html" data-pill>About</a>
+    <a href="works.html" data-pill>Work</a>
+    <a href="experience.html" class="active" data-pill>Expereince</a>
+    <a href="contact.html" data-pill>Contact</a>
+  </nav>
+
+  <div class="scroller">
+    <!-- HERO -->
+    <section class="panel intro">
+      <div>
+        <h1 class="script-title script-title--single" aria-label="Experience">
+          <span class="script-fallback">Experience</span>
+          <svg class="script-svg" viewBox="0 0 800 120" aria-hidden="true">
+            <text class="script-line" x="0" y="90">Experience</text>
+          </svg>
+        </h1>
+      </div>
+      <div>
+        <p class="reveal-text works-intro-note" data-reveal="words">
+          Roles, projects, and collaborations — revealed as you scroll.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE LIST -->
+    <section class="panel exp-panel" aria-label="Experience list">
+      <div class="exp-stack">
+
+        <!-- ITEM 1 (media left, text right) -->
+        <article class="exp-left exp-item">
+          <div class="exp-media exp-glass">
+            <!-- swap for your own image -->
+            <img src="media/exp1.jpg" alt="Centible — product design preview" loading="lazy" />
+            <span class="exp-pill">2025</span>
+          </div>
+
+          <div class="exp-text">
+            <div class="exp-kicker reveal-text" data-reveal="words">Product Design</div>
+            <h2 class="exp-title script-title script-title--small" aria-label="Filtering transactions for Centible">
+              <span class="script-fallback">Filtering transactions for Centible</span>
+              <svg class="script-svg" viewBox="0 0 800 200" aria-hidden="true">
+                <text class="script-line" x="0" y="85">Filtering transactions for</text>
+                <text class="script-line" x="0" y="170">Centible</text>
+              </svg>
+            </h2>
+            <p class="exp-desc reveal-text" data-reveal="words">
+              A financial management tool for college students navigating independent living — focused on
+              clarity, confidence, and intuitive organization.
+            </p>
+
+            <div class="exp-actions">
+              <a class="exp-link reveal-text" data-reveal="words" href="#" aria-label="View case study">
+                View case study <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ITEM 2 (media right, text left) -->
+        <article class="exp-right exp-item">
+          <div class="exp-media exp-glass">
+            <img src="media/exp2.jpg" alt="Illustration role preview" loading="lazy" />
+            <span class="exp-pill">2024</span>
+          </div>
+
+          <div class="exp-text">
+            <div class="exp-kicker reveal-text" data-reveal="words">Illustration</div>
+            <h2 class="exp-title script-title script-title--small" aria-label="Visual storytelling & atmosphere studies">
+              <span class="script-fallback">Visual storytelling & atmosphere studies</span>
+              <svg class="script-svg" viewBox="0 0 860 200" aria-hidden="true">
+                <text class="script-line" x="0" y="85">Visual storytelling &</text>
+                <text class="script-line" x="0" y="170">atmosphere studies</text>
+              </svg>
+            </h2>
+            <p class="exp-desc reveal-text" data-reveal="words">
+              A series of digital studies exploring lighting, mood, and composition — built into a repeatable
+              workflow for consistent output.
+            </p>
+
+            <div class="exp-actions">
+              <a class="exp-link reveal-text" data-reveal="words" href="works.html">
+                Related works <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ITEM 3 -->
+        <article class="exp-left exp-item">
+          <div class="exp-media exp-glass">
+            <video muted playsinline preload="metadata" poster="media/exp3_poster.jpg">
+              <source src="media/exp3.mp4" type="video/mp4" />
+            </video>
+            <span class="exp-pill">2023</span>
+          </div>
+
+          <div class="exp-text">
+            <div class="exp-kicker reveal-text" data-reveal="words">Motion</div>
+            <h2 class="exp-title script-title script-title--small" aria-label="Flip animation & short-form experiments">
+              <span class="script-fallback">Flip animation & short-form experiments</span>
+              <svg class="script-svg" viewBox="0 0 860 200" aria-hidden="true">
+                <text class="script-line" x="0" y="85">Flip animation &</text>
+                <text class="script-line" x="0" y="170">short-form experiments</text>
+              </svg>
+            </h2>
+            <p class="exp-desc reveal-text" data-reveal="words">
+              First pass at flip animation: timing, arcs, and rhythm — optimized for small loops and shareable
+              formats.
+            </p>
+
+            <div class="exp-actions">
+              <a class="exp-link reveal-text" data-reveal="words" href="#" aria-label="Watch">
+                Watch <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

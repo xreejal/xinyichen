@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lydia Chen — Works</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="View the complete collection of artworks by Lydia Chen." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background blobs -->
+  <div class="blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+    <span class="blob b5"></span>
+  </div>
+
+  <!-- Pill Nav -->
+  <nav class="pill-nav" id="pillNav">
+    <div class="pill-active" id="pillActive"></div>
+    <a href="about.html" data-pill>About</a>
+    <a href="works.html" data-pill class="active">Work</a>
+    <a href="experience.html" data-pill>Expereince</a>
+    <a href="contact.html" data-pill>Contact</a>
+  </nav>
+
+  <!-- Vertical page -->
+  <main class="page">
+    <!-- HERO -->
+    <section class="panel intro">
+      <div>
+        <h1 class="script-title" aria-label="Selected Works">
+          <span class="script-fallback">Selected Works</span>
+          <svg class="script-svg" viewBox="0 0 800 220" aria-hidden="true">
+            <text class="script-line" x="0" y="90">Selected</text>
+            <text class="script-line" x="0" y="190">Works</text>
+          </svg>
+        </h1>
+      </div>
+      <div>
+        <p class="reveal-text works-intro-note" data-reveal="words">
+          Digital illustrations and experiments exploring emotion, motion, and atmosphere.
+        </p>
+      </div>
+    </section>
+
+    <!-- WORK 1 -->
+    <section class="panel">
+      <div class="work">
+        <img src="artworks/1.jpeg" alt="Untitled — 2024" />
+        <div class="meta">
+          <span class="reveal-text" data-reveal="words">Untitled</span>
+          <span class="reveal-text" data-reveal="words">2024</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK 2 -->
+    <section class="panel">
+      <div class="work">
+        <img src="artworks/3.jpeg" alt="Study — 2023" />
+        <div class="meta">
+          <span class="reveal-text" data-reveal="words">Study</span>
+          <span class="reveal-text" data-reveal="words">2023</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK 3 -->
+    <section class="panel">
+      <div class="work">
+        <img src="artworks/4.jpg" alt="Concept — 2023" />
+        <div class="meta">
+          <span class="reveal-text" data-reveal="words">Concept</span>
+          <span class="reveal-text" data-reveal="words">2023</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPTIONAL: add your video panel back -->
+    <!--
+    <section class="panel">
+      <div class="work">
+        <a
+          href="https://www.bilibili.com/video/BV1id4y1E7w1/?spm_id_from=333.1387.homepage.video_card.click&vd_source=18e84ab6b8dea89201800255db3d151f"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="oc.png" alt="Animation meme video" />
+        </a>
+        <div class="meta">
+          <span class="reveal-text" data-reveal="words">Animation Meme</span>
+          <span class="reveal-text" data-reveal="words">2023</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div>
+        <p class="reveal-text" data-reveal="words" style="max-width: 560px; line-height: 1.6;">
+          The video is an animation meme I created in 2023 featuring my original character,
+          and it was my first time trying out flip animation.
+        </p>
+      </div>
+    </section>
+    -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

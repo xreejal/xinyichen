@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lydia Chen — About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn more about Lydia Chen." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+    <span class="blob b5"></span>
+  </div>
+
+  <nav class="pill-nav" id="pillNav">
+    <div class="pill-active" id="pillActive"></div>
+    <a href="about.html" class="active" data-pill>About</a>
+    <a href="works.html" data-pill >Work</a>
+    <a href="experience.html" data-pill>Experience</a>
+    <a href="contact.html" data-pill>Contact</a>
+  </nav>
+
+  <div class="scroller">
+    <section class="panel intro">
+      <div>
+        <h1 class="script-title script-title--single" aria-label="About">
+          <span class="script-fallback">About</span>
+          <svg class="script-svg" viewBox="0 0 800 120" aria-hidden="true">
+            <text class="script-line" x="0" y="90">About</text>
+          </svg>
+        </h1>
+      </div>
+      <div>
+        <p class="reveal-text works-intro-note" data-reveal="words">
+          Digital artist exploring emotion through image and motion.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
